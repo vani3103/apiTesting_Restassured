@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="pageno" value="1"/>
+    <classes>
+      <class name="getdemos.List_Users">
+        <methods>
+          <include name="getListOfUsers"/>
+        </methods>
+      </class> <!-- getdemos.List_Users -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
